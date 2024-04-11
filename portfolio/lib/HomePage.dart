@@ -11,16 +11,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.amber,
-        title: const Text("<Sachin/>"),
-        actions: const [
-          Text("HomePage"),
-          Text("HomePage"),
-          Text("HomePage"),
-          Text("HomePage"),
-        ],
-      ),
+      appBar: AppBar(),
       body: const Column(
         children: [],
       ),
